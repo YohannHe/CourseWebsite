@@ -1,0 +1,38 @@
+.con {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-size: 77%;
+}
+
+.con ul {
+
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.con ul li {
+
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    border-bottom: 1px dotted #ccc;
+    background: url(../images/dian1.png) 1px center no-repeat;
+    text-indent: 20px;
+    overflow: hidden;
+}
+
+.con ul li a {
+    color: #555;
+}
+
+.con ul li a:hover {
+	color:#555;
+    text-decoration: none;
+}
+
+.con ul li span {
+    color: #777;
+    float: right;
+}
